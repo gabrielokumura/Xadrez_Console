@@ -7,13 +7,12 @@ namespace xadrez_console
     {
         static void Main(string[] args)
         {
-            Posicao p;
 
-            Tabuleiro t = new Tabuleiro(18, 10);
+            Tabuleiro t = new Tabuleiro(8, 8);
 
-            p = new Posicao(3, 4);
+            Tela.imprimirTabuleiro(t);
 
-            Console.WriteLine(p);
+            
         }
     }
 }
