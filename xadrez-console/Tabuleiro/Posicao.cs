@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tabuleiro
+namespace tabuleiro
 {
     class Posicao
     {
@@ -17,8 +17,8 @@ namespace Tabuleiro
 
         public override string ToString()
         {
-            return linha
-                + ", "
+            return linha 
+                + ", " 
                 + coluna;
         }
     }
